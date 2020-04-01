@@ -1,0 +1,78 @@
+[01-Dec-2018 22:42:42 Asia/Kolkata] PHP Warning:  require(phpmailer/vendor/autoload.php): failed to open stream: No such file or directory in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 20
+[01-Dec-2018 22:42:42 Asia/Kolkata] PHP Warning:  require(phpmailer/vendor/autoload.php): failed to open stream: No such file or directory in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 20
+[01-Dec-2018 22:42:42 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'phpmailer/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 20
+[17-Apr-2019 23:52:48 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 8
+[18-Apr-2019 00:02:36 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 9
+[18-Apr-2019 00:10:30 Asia/Kolkata] PHP Recoverable fatal error:  Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 63
+[18-Apr-2019 00:10:40 Asia/Kolkata] PHP Recoverable fatal error:  Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 63
+[18-Apr-2019 00:13:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 7
+[18-Apr-2019 11:45:43 Asia/Kolkata] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 4
+[18-Apr-2019 11:45:43 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 4
+[19-Apr-2019 15:50:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 7
+[02-Aug-2019 11:21:14 Asia/Kolkata] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 4
+[02-Aug-2019 11:21:14 Asia/Kolkata] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 4
+[02-Aug-2019 11:21:14 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 4
+[02-Aug-2019 11:28:51 Asia/Kolkata] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/lciov9zq/public_html/ajinkyabodade.tk/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3113
+[02-Aug-2019 11:28:51 Asia/Kolkata] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/lciov9zq/public_html/ajinkyabodade.tk/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 4324
+[02-Aug-2019 11:28:51 Asia/Kolkata] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/lciov9zq/public_html/ajinkyabodade.tk/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2983
+[03-Aug-2019 12:15:46 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:15:53 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:16:39 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:24:31 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:27:09 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:29:23 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 12:30:40 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 17
+[03-Aug-2019 14:23:59 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 17
+[03-Aug-2019 14:24:00 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 17
+[03-Aug-2019 16:28:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 32
+[03-Aug-2019 16:29:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 29
+[03-Aug-2019 16:34:21 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 29
+[03-Aug-2019 16:34:34 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 29
+[03-Aug-2019 16:35:34 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[03-Aug-2019 16:36:38 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 30
+[03-Aug-2019 16:37:04 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 30
+[03-Aug-2019 16:38:02 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/validation.php on line 30
+[06-Aug-2019 11:27:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[06-Aug-2019 11:28:37 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[06-Aug-2019 11:44:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[06-Aug-2019 15:08:18 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[06-Aug-2019 15:10:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[06-Aug-2019 15:17:32 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:1) in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 31
+[07-Aug-2019 14:58:28 Asia/Calcutta] PHP Warning:  Illegal string offset 'Result' in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 21
+[07-Aug-2019 14:58:28 Asia/Calcutta] PHP Warning:  Illegal string offset 'TransactionType' in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 25
+[07-Aug-2019 15:04:10 Asia/Calcutta] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 29
+[07-Aug-2019 15:08:22 Asia/Calcutta] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 30
+[07-Aug-2019 15:08:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function stringify() in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 29
+[07-Aug-2019 15:08:59 Asia/Calcutta] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 30
+[07-Aug-2019 15:10:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 22
+[07-Aug-2019 15:11:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 22
+[07-Aug-2019 15:12:22 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 24
+[07-Aug-2019 16:58:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/confirmation.php on line 19
+[19-Sep-2019 11:16:09 Asia/Kolkata] PHP Warning:  curl_setopt() expects parameter 2 to be integer, string given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 46
+[19-Sep-2019 11:18:54 Asia/Kolkata] PHP Warning:  curl_setopt_array() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 71
+[19-Sep-2019 11:18:54 Asia/Kolkata] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 75
+[19-Sep-2019 11:19:22 Asia/Kolkata] PHP Warning:  curl_setopt_array() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 71
+[19-Sep-2019 11:19:22 Asia/Kolkata] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 75
+[19-Sep-2019 11:20:57 Asia/Kolkata] PHP Warning:  curl_setopt_array() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 77
+[19-Sep-2019 11:21:21 Asia/Kolkata] PHP Warning:  curl_setopt_array() expects parameter 1 to be resource, null given in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 71
+[19-Sep-2019 11:23:50 Asia/Kolkata] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/lciov9zq/public_html/ajinkyabodade.tk/test.php on line 71
+[07-Oct-2019 23:55:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'success' in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 42
+[07-Oct-2019 23:58:01 Asia/Kolkata] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 42
+[08-Oct-2019 00:03:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'error-codes' in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 42
+[08-Oct-2019 00:06:43 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 42
+[08-Oct-2019 00:38:15 Asia/Kolkata] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lciov9zq/public_html/ajinkyabodade.tk/contact.php on line 42
