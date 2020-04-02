@@ -7,10 +7,10 @@ $siteName = "Cipet.in";
 //DEFINE("BASE_URL","http://cipetbhopal.com/");
 //DEFINE("BASE_URL","http://localhost/oes/");
 
-DEFINE ('DB_USER','	u150007837_advancelogin');
+DEFINE ('DB_USER','u150007837_advancelogin');
 DEFINE ('DB_PSWD','yash@2805'); 
 DEFINE ('DB_HOST','localhost'); 
-DEFINE ('DB_NAME','	u150007837_advancelogin'); 
+DEFINE ('DB_NAME','u150007837_advancelogin'); 
 
 date_default_timezone_set('Asia/Calcutta'); 
 $conn =  new mysqli(DB_HOST,DB_USER,DB_PSWD,DB_NAME);
