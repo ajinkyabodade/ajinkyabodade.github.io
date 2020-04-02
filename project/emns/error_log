@@ -1,0 +1,51 @@
+[05-Apr-2018 16:25:30 UTC] PHP Parse error:  syntax error, unexpected ''Emergency Notification'' (T_CONSTANT_ENCAPSED_STRING) in /home/lciov9zq/public_html/emns/mail.php on line 25
+[05-Apr-2018 16:26:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/lciov9zq/public_html/emns/mail.php on line 30
+[05-Apr-2018 16:26:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lciov9zq/public_html/emns/mail.php on line 37
+[05-Apr-2018 16:27:04 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 5
+[05-Apr-2018 16:28:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 5
+[05-Apr-2018 16:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 5
+[05-Apr-2018 16:29:49 UTC] PHP Warning:  Creating default object from empty value in /home/lciov9zq/public_html/emns/mail.php on line 7
+[05-Apr-2018 16:29:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PHPMailer\PHPMailer\PHPMailer::SetForm() in /home/lciov9zq/public_html/emns/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 19
+[05-Apr-2018 16:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PHPMailer\PHPMailer\PHPMailer::SetForm() in /home/lciov9zq/public_html/emns/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 19
+[05-Apr-2018 16:40:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[05-Apr-2018 16:41:13 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[05-Apr-2018 16:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[05-Apr-2018 16:41:17 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[05-Apr-2018 16:41:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[05-Apr-2018 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/lciov9zq/public_html/emns/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/emns/mail.php on line 6
+[06-Apr-2018 08:48:59 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/lciov9zq/public_html/emns/mail.php on line 54
+[06-Apr-2018 08:50:01 UTC] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home/lciov9zq/public_html/emns/mail.php on line 54
+[06-Apr-2018 09:02:17 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/lciov9zq/public_html/emns/mail.php on line 54

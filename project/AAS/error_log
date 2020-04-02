@@ -1,0 +1,84 @@
+[23-Jul-2018 01:32:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/lciov9zq/public_html/ajinkyproject/registration.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyproject/registration.php on line 14
+[23-Jul-2018 01:33:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lciov9zq/public_html/ajinkyproject/registration.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyproject/registration.php on line 41
+[23-Jul-2018 01:34:22 Asia/Calcutta] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyproject/registration.php on line 41
+[23-Jul-2018 01:34:22 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/lciov9zq/public_html/ajinkyproject/registration.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyproject/registration.php on line 42
+[23-Jul-2018 08:13:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lciov9zq/public_html/ajinkyproject/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 10
+[23-Jul-2018 08:15:08 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 39
+[23-Jul-2018 08:15:08 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 40
+[23-Jul-2018 08:15:08 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 41
+[23-Jul-2018 08:15:08 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 42
+[23-Jul-2018 08:15:08 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 43
+[23-Jul-2018 08:18:34 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 39
+[23-Jul-2018 08:18:34 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 40
+[23-Jul-2018 08:18:34 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 41
+[23-Jul-2018 08:18:34 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 42
+[23-Jul-2018 08:18:34 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 43
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 19
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 41
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 42
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 43
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 44
+[23-Jul-2018 08:19:30 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 45
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 19
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 41
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 42
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 43
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 44
+[23-Jul-2018 08:19:38 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 45
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 19
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 41
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 42
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 43
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 44
+[23-Jul-2018 08:20:33 Asia/Calcutta] PHP Warning:  openssl_private_decrypt(): key parameter is not a valid private key in /home/lciov9zq/public_html/ajinkyproject/dashboard.php on line 45
+[23-Jul-2018 10:52:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/lciov9zq/public_html/ajinkyproject/login1.php on line 29
+[23-Jul-2018 12:22:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$color' (T_VARIABLE), expecting ',' or ';' in /home/lciov9zq/public_html/ajinkyproject/login1.php on line 36
+[23-Jul-2018 12:32:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ')' in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 11
+[26-Jul-2018 11:16:47 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ')' in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 11
+[26-Jul-2018 11:17:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ')' in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 11
+[26-Jul-2018 11:21:37 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ')' in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 11
+[26-Jul-2018 11:28:52 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[26-Jul-2018 11:28:52 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[26-Jul-2018 11:29:42 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[26-Jul-2018 11:29:42 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[26-Jul-2018 11:31:47 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[26-Jul-2018 11:31:47 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/lciov9zq/public_html/ajinkyproject/submitpassword.php on line 24
+[13-Sep-2018 15:56:17 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:17 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:20 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:20 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:21 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:21 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:23 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Sep-2018 15:56:23 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:13 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:13 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:16 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:16 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:18 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:18 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:19 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[16-Sep-2018 09:01:19 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:37 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:37 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/dashboard.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:40 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:40 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/registration.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:42 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:42 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:43 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[20-Sep-2018 01:38:43 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lciov9zq/public_html/ajinkyproject/login1.php:1) in /home/lciov9zq/public_html/ajinkyproject/dbconnect.php on line 4
+[13-Nov-2019 13:08:31 Asia/Calcutta] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home/lciov9zq/public_html/ajinkyabodade.tk/project/AAS/dbconnect.php on line 16
+[13-Nov-2019 13:09:31 Asia/Calcutta] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home/lciov9zq/public_html/ajinkyabodade.tk/project/AAS/dbconnect.php on line 16
+[22-Nov-2019 09:14:23 Asia/Calcutta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'lciov9zq_admin'@'10.10.28.55' to database 'lciov9zq_advancelogin' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/AAS/dbconnect.php on line 16

@@ -1,0 +1,56 @@
+[05-Dec-2018 19:21:42 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'localhost'@'10.10.28.55' to database 'u150007837_collegemanage' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[05-Dec-2018 19:21:42 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[05-Dec-2018 19:21:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[05-Dec-2018 19:22:14 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'localhost'@'10.10.28.55' to database 'u150007837_collegemanage' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/principalcheck.php on line 16
+[05-Dec-2018 19:22:14 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/principalcheck.php on line 19
+[09-Nov-2019 21:35:11 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[09-Nov-2019 21:35:11 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[09-Nov-2019 21:35:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[09-Nov-2019 23:07:34 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[09-Nov-2019 23:07:34 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[09-Nov-2019 23:07:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[13-Nov-2019 03:17:46 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1130): Host '10.10.28.55' is not allowed to connect to this MySQL server in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[13-Nov-2019 03:17:46 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[13-Nov-2019 03:17:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[14-Nov-2019 01:39:49 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[14-Nov-2019 01:39:49 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[14-Nov-2019 01:39:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[15-Nov-2019 16:54:40 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'localhost'@'10.10.28.55' (using password: YES) in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[15-Nov-2019 16:54:40 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[15-Nov-2019 16:54:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[17-Nov-2019 00:22:28 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'localhost'@'10.10.28.55' to database 'u150007837_collegemanage' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[17-Nov-2019 00:22:28 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[17-Nov-2019 00:22:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[18-Nov-2019 10:22:47 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'localhost'@'10.10.28.55' to database 'u150007837_collegemanage' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[18-Nov-2019 10:22:47 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[18-Nov-2019 10:22:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
+[20-Nov-2019 20:32:09 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'localhost'@'10.10.28.55' to database 'u150007837_collegemanage' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 88
+[20-Nov-2019 20:32:09 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 89
+[20-Nov-2019 20:32:09 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/lciov9zq/public_html/ajinkyabodade.tk/project/CMS/main.php on line 91
