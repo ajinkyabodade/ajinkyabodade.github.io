@@ -1,0 +1,74 @@
+[04-Feb-2019 20:42:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(8): CI_Controller->__construct()
+#7 /home in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 92
+[04-Feb-2019 20:43:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(8): CI_Controller->__construct()
+#7 /home in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 92
+[07-Feb-2019 10:20:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(8): CI_Controller->__construct()
+#7 /home in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 92
+[07-Feb-2019 10:21:38 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '/home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysqli_/mysqli__driver.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php on line 141
+[07-Feb-2019 10:28:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:74
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_connect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(8): CI_Controller->__construct()
+#7 /home/l in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 74
+[20-Feb-2019 13:10:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:74
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_connect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(8): CI_Controller->__construct()
+#7 /home/l in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 74
+[18-Apr-2019 10:25:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(11): CI_Controller->__construct()
+#7 /hom in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 92
+[18-Apr-2019 10:25:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php:74
+Stack trace:
+#0 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_connect()
+#1 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php(11): CI_Controller->__construct()
+#7 /home/ in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/system/database/drivers/mysql/mysql_driver.php on line 74
+[21-Apr-2019 20:52:45 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '|', expecting end of file in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/config/database.php on line 3
+[22-Apr-2019 21:59:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php on line 106
+[22-Apr-2019 21:59:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/lciov9zq/public_html/ajinkyabodade.tk/project/forum/application/controllers/welcome.php on line 106
