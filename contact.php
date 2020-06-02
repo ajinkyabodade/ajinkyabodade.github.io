@@ -65,7 +65,7 @@ $mail->Host = "smtp.gmail.com";
  
 //Set this to true if SMTP host requires authentication to send email
  
-$mail->SMTPAuth = true;                      
+// $mail->SMTPAuth = true;                      
  
 //Provide username and password
  
@@ -101,7 +101,7 @@ if(!$mail->send())
 {
  
 
-  print_r($mail);exit();
+  // print_r($mail);exit();
 }
  
 else
