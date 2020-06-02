@@ -101,7 +101,7 @@ if(!$mail->send())
 {
  
 
- 
+  print_r($mail);exit();
 }
  
 else
@@ -112,7 +112,7 @@ else
  
 }
 ?>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 alert("Mail Successfully Send!");
 location="index.html";
-</script>
+</script> -->
