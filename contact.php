@@ -2,7 +2,6 @@
 <?php
  error_reporting(0);
 
-
 $ipaddress = '';
     if ($_SERVER['HTTP_CLIENT_IP'] != '127.0.0.1')
         $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
@@ -42,77 +41,33 @@ curl_close ($ch);
 
 if(!(strpos($server_output, 'true')>0)) return;
 
-require 'phpmailer/vendor/autoload.php';
- $fields = $_POST['name']." ".$_POST['subject']." ".$_POST['phone']." ".$_POST['email']." ".$_POST['message']." ".$_POST['ref'];
- 
- if(trim($fields)==NULL){ ?> <script type="text/javascript">alert("Please fill the required fields");location="index.html";</script> <?php return;}
-  
- if(trim($fields)=="") {?> <script type="text/javascript">alert("Please fill the required fields.");location="index.html";</script> <?php return;}
- 
-$mess=$_GET['mess'];
- $mail= new PHPMailer\PHPMailer\PHPMailer();
-//Enable SMTP debugging.
- 
-//$mail->SMTPDebug = 3;                           
- 
-//Set PHPMailer to use SMTP.
- 
-$mail->isSMTP();        
- 
-//Set SMTP host name                      
- 
-$mail->Host = "smtp.gmail.com";
- 
-//Set this to true if SMTP host requires authentication to send email
- 
-// $mail->SMTPAuth = true;                      
- 
-//Provide username and password
- 
-$mail->Username = "pnbodade@gmail.com";             
- 
-$mail->Password = "28041965";                       
- 
-//If SMTP requires TLS encryption then set it
- 
-$mail->SMTPSecure = "tls";                       
- 
-//Set TCP port to connect to
- 
-$mail->Port = 587;                    
- 
-$mail->From = "pnbodade@gmail.com";
- 
-$mail->FromName = "Website Contact Form";
- 
-$mail->addAddress("bodadeajinkya@gmail.com", "Recepient Name");
+ $fields = $_POST['name']." ".$_POST['subject']." ".$_POST['phone']." ".$_POST['email']." ".$_POST['message']." ".$_POST['ref']."  ".$ipaddress;
 
- 
-$mail->isHTML(true);
- 
-$mail->Subject = "Website Contact Form";
- 
-$mail->Body = $fields;
- 
-$mail->AltBody = "This is the plain text version of the email content";
- 
-if(!$mail->send())
- 
-{
- 
 
-  // print_r($mail);exit();
+
+if(isset($_POST["email"])){
+	// Check if the "Sender's Email" input field is filled out
+	$email=$_POST['email'];
+	// Sanitize E-mail Address
+	$email =filter_var($email, FILTER_SANITIZE_EMAIL);
+	// Validate E-mail Address
+	$email= filter_var($email, FILTER_VALIDATE_EMAIL);
+	if (!$email){
+	echo "Invalid Sender's Email";
+	}
+	else{
+	$subject = "Website Form Response";
+	$message = $fields;
+	$headers = 'From:'. $_POST['email'] . "rn"; // Sender's Email
+	// Message lines should not exceed 70 characters (PHP rule), so wrap it
+	$message = wordwrap($message, 70);
+	// Send Mail By PHP Mail Function
+	mail("bodadeajinkya@gmail.com", $subject, $message, $headers);
+	echo "Your mail has been sent successfuly ! Thank you for your feedback";
+	}
 }
- 
-else
- 
-{
- 
 
- 
-}
 ?>
-<!-- <script type="text/javascript">
-alert("Mail Successfully Send!");
-location="index.html";
-</script> -->
+
+<script type="text/javascript">alert("Mail Successfully Send!");location="index.html";</script>
+
