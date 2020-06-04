@@ -53,7 +53,7 @@ if(isset($_POST["email"])){
 	// Validate E-mail Address
 	$email= filter_var($email, FILTER_VALIDATE_EMAIL);
 	if (!$email){
-	echo "Invalid Sender's Email";
+	// echo "Invalid Sender's Email";
 	}
 	else{
 	$subject = "Website Form Response";
@@ -63,7 +63,7 @@ if(isset($_POST["email"])){
 	$message = wordwrap($message, 70);
 	// Send Mail By PHP Mail Function
 	mail("bodadeajinkya@gmail.com", $subject, $message, $headers);
-	echo "Your mail has been sent successfuly ! Thank you for your feedback";
+	// echo "Your mail has been sent successfuly ! Thank you for your feedback";
 	}
 }
 
