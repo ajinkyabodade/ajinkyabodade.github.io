@@ -25,6 +25,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link href="css/bootstrap-theme.min.css" rel="stylesheet">
         <style type="text/css">
+          html {
+            scroll-behavior: smooth;
+          }
           /* Custom Scroll Bar */
           ::-webkit-scrollbar {
             width: 8px;
@@ -155,17 +158,76 @@
             }
           }
           .blink {
-		    -webkit-animation: blink 1s step-end infinite;
-		            animation: blink 1s step-end infinite;
-			}
-			@-webkit-keyframes blink { 50% { visibility: hidden; }}
-			        @keyframes blink { 50% { visibility: hidden; }}
+    		    -webkit-animation: blink 1s step-end infinite;
+    		            animation: blink 1s step-end infinite;
+    			}
+    			@-webkit-keyframes blink { 50% { visibility: hidden; }}
+    			        @keyframes blink { 50% { visibility: hidden; }}
 
 
-			.btn:hover{
-				border: 1px solid white;
-			}
+    			.btn:hover{
+    				border: 1px solid white;
+    			}
 
+
+          .avatar-effect {
+            height: 200px;
+            position: relative;
+            width: 200px;
+          }
+
+          .avatar-effect img {
+            border-radius: 9999px;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            z-index: 2;
+          }
+
+          @keyframes cycle-colors {
+            0% { border-color: hsl(0, 100%, 50%); }
+            25% { border-color: hsl(90, 100%, 50%); }
+            50% { border-color: hsl(180, 100%, 50%); }
+            75% { border-color: hsl(270, 100%, 50%); }
+            100% { border-color: hsl(360, 100%, 50%); }
+          }
+
+          @keyframes pulse {
+            to {
+              opacity: 0;
+              transform: scale(1);
+            }
+          }
+
+          .avatar-effect::before,
+          .avatar-effect::after {
+            animation: pulse 2s linear infinite;
+            border: #fff solid 4px;
+            border-radius: 9999px;
+            box-sizing: border-box;
+            content: ' ';
+            height: 140%;
+            left: -20%;
+            opacity: .6;
+            position: absolute;
+            top: -20%;
+            transform: scale(0.714);
+            width: 140%;
+            z-index: 1;
+          }
+
+          .avatar-effect::after {
+            animation-delay: 1s;
+          }
+
+          .avatar-effect:hover::before,
+          .avatar-effect:hover::after {
+            animation: pulse 1s linear infinite, cycle-colors 6s linear infinite;
+          }
+
+          .avatar-effect:hover::after {
+            animation-delay: .5s;
+          }
 
         </style>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -293,7 +355,7 @@
                         <div class="row">
                           <div class="col-md-9">
                             <div class="main-avatar text-center">
-                              <div class="avatar img-thumbnail img-circle" style="background-image: url('../img/Ajinkya Bodade.jpg'); height: 176px; width: 180px; background-size: 100%;">
+                              <div class="avatar img-thumbnail img-circle avatar-effect" style="background-image: url('../img/Ajinkya Bodade.jpg'); height: 176px; width: 180px; background-size: 100%;">
                               </div>
                             </div>
                             <br>
@@ -303,47 +365,41 @@
                               <div class="col-md-12 text-right">
                                 <ul class="list-inline" style="float:left;">
                                   <li>
-                                    <a rel=nofollow href="https://www.facebook.com/ajinkya.bodade.3" class="color-primary linear">
-                                      <i class="fab fa-facebook fa-2x">
-                                      </i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a rel=nofollow href="https://twitter.com/ajinkya_bodade" class="color-primary linear">
-                                      <i class="fab fa-twitter fa-2x">
-                                      </i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a rel=nofollow href="https://www.linkedin.com/in/ajinkya-bodade/" class=" color-primary linear">
+                                    <a rel=nofollow href="https://www.linkedin.com/in/ajinkya-bodade/" target="_blank" class=" color-primary linear">
                                       <i class="fab fa-linkedin fa-2x">
                                       </i>
                                     </a>
                                   </li>
                                   <li>
-                                    <a rel=nofollow href="https://github.com/ajinkyabodade" class="color-primary linear">
+                                    <a rel=nofollow href="https://github.com/ajinkyabodade" target="_blank" class="color-primary linear">
                                       <i class="fab fa-github fa-2x">
                                       </i>
                                     </a>
                                   </li>
                                   <li>
-                                    <a rel=nofollow href="https://www.instagram.com/ajinkya_bodade/" class="color-primary linear">
+                                    <a href="https://stackoverflow.com/users/9066997/ajinkya-bodade" target="_blank" class="color-primary linear">
+                                      <i class="fab fa-stack-overflow fa-2x">
+                                      </i>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a rel=nofollow href="https://twitter.com/ajinkya_bodade" target="_blank" class="color-primary linear">
+                                      <i class="fab fa-twitter fa-2x">
+                                      </i>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a rel=nofollow href="https://www.instagram.com/ajinkya_bodade/" target="_blank" class="color-primary linear">
                                       <i class="fab fa-instagram fa-2x">
                                       </i>
                                     </a>
                                   </li>
                                   <li>
-                                    <a rel=nofollow href="https://www.quora.com/profile/Ajinkya-Bodade" class="color-primary linear">
+                                    <a rel=nofollow href="https://www.quora.com/profile/Ajinkya-Bodade" target="_blank" class="color-primary linear">
                                       <i class="fab fa-quora fa-2x">
                                       </i>
                                     </a>
                                   </li>
-                                  <!--<li>-->
-                                  <!--  <a href="mailto:bodadeajinkya@gmail" target="new" class="color-primary linear">-->
-                                  <!--    <i class="fab fa-google fa-2x">-->
-                                  <!--    </i>-->
-                                  <!--  </a>-->
-                                  <!--</li>-->
                                 </ul>
                               </div>
                             </div>
@@ -447,7 +503,7 @@
           </div>
           <!-- /Intro -->   
           <div class="bgd" id="work">
-            <div data-aos="zoom-in"  data-aos-duration="1000" >
+            <div>
               <div class="aos-item__inner">
                 <!-- Portfolio -->
                 <div  class="page clearfix" style="padding:20px;  ">
@@ -468,7 +524,7 @@
                         <div class="row">
                           <div class="container_folio clearfix gallery" id="grid">
                           <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "ilustrator"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -501,7 +557,7 @@
                             </div>
                               
                            <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "ilustrator"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -533,7 +589,7 @@
                             </div>
                             
                             <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "ilustrator"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -566,7 +622,7 @@
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -599,7 +655,7 @@
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "ilustrator"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -631,7 +687,7 @@
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "ilustrator"]'>
-                              <div class="folio-img">
+                              <div class="folio-img" data-aos="zoom-in">
                                 <div class="portfolio-item">
                                   <div class="thumbnail">
                                     <div class="thumb-img">
@@ -681,7 +737,7 @@
             </div>
           </div>
           <!-- /Timeline Start -->
-          <div data-aos="flip-up" style="background-image: url('../img/bg1.jpg'); background-size: 100%; background-size: cover;">
+          <div  style="background-image: url('../img/bg1.jpg'); background-size: 100%; background-size: cover;">
             <div class="aos-item__inner">
               <div class="row" >
                 <div class="col-md-10  col-md-offset-1">
@@ -698,7 +754,7 @@
               <div data-wow-delay=".25s" class="wow zoomOutLeft container" >
                 <div class="row">
                   <div class="main-timeline">
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-left" data-aos-duration="100">
                       <a  class="timeline-content">
                         <h5 class="title" style="font-size: 20px;" style="font-size:20px;">Full Stack Developer
                           <i class="fa fa-rocket">
@@ -709,7 +765,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-right" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h5 class="title" style="font-size: 20px;">Full Stack Developer Intern
                           <i class="fa fa-globe">
@@ -720,7 +776,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-left" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h5 class="title" style="font-size: 20px;">Web Developer 
                           <i class="fa fa-globe">
@@ -731,7 +787,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-right" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h5 class="title" style="font-size: 20px;">Internship Trainer
                           <i class="fa fa-rocket">
@@ -742,7 +798,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-left" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h5 class="title" style="font-size: 20px;">Student Ambassador
                           <i class="fa fa-rocket">
@@ -759,7 +815,7 @@
             </div>
           </div>
           <div class="bgd1">
-            <div data-aos="flip-up">
+            <div>
               <div class="aos-item__inner">
                 <div class="row">
                   <div class="col-md-10  col-md-offset-1">
@@ -822,7 +878,7 @@
               </div>
             </div>
           </div>
-          <div data-aos="fade-down" style="background-image: url('../img/bg1.jpg'); background-size: 100%; background-size: cover;"     >
+          <div style="background-image: url('../img/bg1.jpg'); background-size: 100%; background-size: cover;"     >
             <div class="aos-item__inner">
               <div class="row" >
                 <div class="col-md-10  col-md-offset-1">
@@ -839,7 +895,7 @@
               <div class="container">
                 <div class="row">
                   <div class="main-timeline">
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-left" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h3 class="title" style="font-size: 20px;">Web-Designing 
                           <i class="fa fa-globe">
@@ -850,7 +906,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-right" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h3 class="title" style="font-size: 20px;">C Genius 
                           <i class="fa fa-rocket">
@@ -861,7 +917,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-left" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h3 class="title" style="font-size: 20px;">Web-Designing 
                           <i class="fa fa-rocket">
@@ -872,7 +928,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="timeline">
+                    <div class="timeline"  data-aos="fade-right" data-aos-duration="100">
                       <a   class="timeline-content">
                         <h3 class="title" style="font-size: 20px;">PC Assembly 
                           <i class="fa fa-rocket">
@@ -893,7 +949,7 @@
           <div id="contact" >
             <div id="contact-section">
               <div class="bgd2">
-                <div data-aos="flip-up" >
+                <div>
                   <div class="aos-item__inner">
                     <div class="container" >
                       <div class="row">
@@ -912,7 +968,7 @@
                         <!-- ./ Main Heading-->
                         <div class="row">
                           <div class="col-md-12  col-sm-12 ">
-                            <div class="col-md-6  " style="color:white;" data-scrollreveal="enter left and move 100px, wait 0.4s">
+                            <div class="col-md-6" data-aos="fade-right" data-aos-duration="100" style="color:white;" data-scrollreveal="enter left and move 100px, wait 0.4s">
                               <h3>
                                  My Work Location
                                 
@@ -929,7 +985,7 @@
                                 <br />
                               </p>
                             </div>
-                            <div class="col-md-6  " style="color:white;" data-scrollreveal="enter right and move 100px, wait 0.4s">
+                            <div class="col-md-6" data-aos="fade-left" data-aos-duration="100" style="color:white;" data-scrollreveal="enter right and move 100px, wait 0.4s">
                               <h3>Drop a Line
                               </h3>
                               <hr />
@@ -984,7 +1040,7 @@
               <div class="row">
                 <div class="col-md-6 ">
                   <div class="cp-right">
-                    <p>&copy; 2019 
+                    <p>&copy; 2020 
                       <a href="https://www.linkedin.com/in/ajinkya-bodade/" class="color-primary linear">Ajinkya Bodade
                       </a>. All Rights Reserved. 
                     </p>
@@ -993,18 +1049,6 @@
                 </div>
                 <!-- end col -->
                 <ul class="list-inline">
-                  <li>
-                    <a href="https://www.facebook.com/ajinkya.bodade.3" class="socIcon color-primary linear">
-                      <i class="fab fa-facebook fa-2x">
-                      </i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/ajinkya_bodade" class="socIcon color-primary linear">
-                      <i class="fab fa-twitter fa-2x">
-                      </i>
-                    </a>
-                  </li>
                   <li>
                     <a href="https://www.linkedin.com/in/ajinkya-bodade/" class="socIcon color-primary linear">
                       <i class="fab fa-linkedin fa-2x">
@@ -1018,20 +1062,32 @@
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.facebook.com/ajinkya.bodade.3" class="socIcon color-primary linear">
+                      <i class="fab fa-facebook fa-2x">
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://stackoverflow.com/users/9066997/ajinkya-bodade" target="_blank" class="color-primary linear">
+                      <i class="fab fa-stack-overflow fa-2x">
+                      </i>
+                    </a>
+                  </li>
+                  <li>
                     <a href="https://www.instagram.com/ajinkya_bodade/" class="socIcon color-primary linear">
                       <i class="fab fa-instagram fa-2x">
                       </i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.quora.com/profile/Ajinkya-Bodade" class="socIcon color-primary linear">
-                      <i class="fab fa-quora fa-2x">
+                    <a href="https://twitter.com/ajinkya_bodade" class="socIcon color-primary linear">
+                      <i class="fab fa-twitter fa-2x">
                       </i>
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:bodadeajinkya@gmail" target="new" class="socIcon color-primary linear">
-                      <i class="fab fa-google fa-2x">
+                    <a href="https://www.quora.com/profile/Ajinkya-Bodade" class="socIcon color-primary linear">
+                      <i class="fab fa-quora fa-2x">
                       </i>
                     </a>
                   </li>
@@ -1070,27 +1126,32 @@
           <script>
             AOS.init({
               easing: 'ease-in-out-sine'
-            }
-                    );
+            });
 
-            $(document).on('click', 'a[href^="#"]', function(e) {
-              // target element id
-              var id = $(this).attr('href');
-              // target element
-              var $id = $(id);
-              if ($id.length === 0) {
-                return;
-              }
-              // prevent standard hash navigation (avoid blinking in IE)
-              e.preventDefault();
-              // top position relative to the document
-              var pos = $id.offset().top;
-              // animated top scrolling
-              $('body, html').animate({
-                scrollTop: pos}
-                                     );
-            }
-                          );
+            $(document).ready(function(){
+              // Add smooth scrolling to all links
+              $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+               
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+              });
+            });
                           
              document.onreadystatechange = function(e)
              {
