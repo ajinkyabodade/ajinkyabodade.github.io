@@ -1,4 +1,4 @@
-Sitemap: sitemap.xml
+Sitemap: http://ajinkya.co/sitemap.xml
 
 User-agent: *
 Disallow: /contact.php
