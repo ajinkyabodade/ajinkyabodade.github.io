@@ -8,7 +8,7 @@ app.factory('loginService',['$http',function($http)
 
 			$http({
 			method:'post',
-			url:'https://ajinkya.co/project/forum/index.php/welcome/signin',
+			url:'https://ajinkya.tech/project/forum/index.php/welcome/signin',
 			data: {'email':email,'pass':pass}
 			})
 			.then(function(response)
@@ -37,7 +37,7 @@ app.factory('loginService',['$http',function($http)
 
 			$http({
 			method:'post',
-			url:'https://ajinkya.co/project/forum/index.php/welcome/register',
+			url:'https://ajinkya.tech/project/forum/index.php/welcome/register',
 			data: {'email':remail,'pass':rpass, 'fname':fname}
 			})
 

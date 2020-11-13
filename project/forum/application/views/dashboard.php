@@ -22,9 +22,9 @@
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script  src="https://ajinkya.co/project/forum/application/js/angular-route.js">  </script>
-    <script  src="https://ajinkya.co/project/forum/application/js/controller/listc.js?=<?=rand()?>"></script>
-    <script  src="https://ajinkya.co/project/forum/application/js/service/lists.js">  </script>
+    <script  src="https://ajinkya.tech/project/forum/application/js/angular-route.js">  </script>
+    <script  src="https://ajinkya.tech/project/forum/application/js/controller/listc.js?=<?=rand()?>"></script>
+    <script  src="https://ajinkya.tech/project/forum/application/js/service/lists.js">  </script>
 </head>
 <body  background="../../bg.jpg">
     <div class="container">

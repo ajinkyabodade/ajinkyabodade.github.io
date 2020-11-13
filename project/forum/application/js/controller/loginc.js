@@ -15,7 +15,7 @@ app.controller('loginCtrl',['$scope','loginService',function($scope,loginService
             else
             {
                 $scope.message = "You loggedIn Successful!";
-                var landingUrl = "https://ajinkya.co/project/forum/index.php/welcome/view2";
+                var landingUrl = "https://ajinkya.tech/project/forum/index.php/welcome/view2";
                 window.location.href = landingUrl;
             }
 
@@ -41,7 +41,7 @@ app.controller('registerCtrl',['$scope','registerService',function($scope,regist
                 $scope.message = "Error..Contact Site Admin";
             else
                 $scope.message = "Registration Succesfull";
-               var landingUrl = "https://ajinkya.co/project/forum/index.php/welcome/view2";
+               var landingUrl = "https://ajinkya.tech/project/forum/index.php/welcome/view2";
                window.location.href = landingUrl;
 
         };

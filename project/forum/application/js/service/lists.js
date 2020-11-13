@@ -9,7 +9,7 @@ app.factory('listviewService',['$http',function($http)
 	{
 		$http({
 			method:'post',
-			url:'https://ajinkya.co/project/forum/index.php/welcome/lfetch'
+			url:'https://ajinkya.tech/project/forum/index.php/welcome/lfetch'
 		})
 		.then(function(response)
 		{
@@ -31,7 +31,7 @@ factory.addtopics = function(subject,desc,callback)
 	{
 		$http({
 			method:'post',
-		    url:'https://ajinkya.co/project/forum/index.php/welcome/addlist',
+		    url:'https://ajinkya.tech/project/forum/index.php/welcome/addlist',
 			data: {'subject':subject,
 				   'desc':desc}
 		})
@@ -56,7 +56,7 @@ factory.addtopics = function(subject,desc,callback)
 			console.log('editlist service',ulid,usubject,udescn);
 		$http({
 			method:'post',
-		    url:'https://ajinkya.co/project/forum/index.php/welcome/listupdate',
+		    url:'https://ajinkya.tech/project/forum/index.php/welcome/listupdate',
 			data: {'lid':ulid,
 				    'subject':usubject,
 				   'descn':udescn}
@@ -98,7 +98,7 @@ app.factory('listviewdetailService',['$http',function($http)
 	{
 		$http({
 			method:'post',
-			url:'https://ajinkya.co/project/forum/index.php/welcome/listview',
+			url:'https://ajinkya.tech/project/forum/index.php/welcome/listview',
 			data: {'lid':lid}
 		})
 		.then(function(response)
@@ -122,7 +122,7 @@ app.factory('listviewdetailService',['$http',function($http)
 			console.log('service',listid,comment);
 		$http({
 			method:'post',
-		    url:'https://ajinkya.co/project/forum/index.php/welcome/commentadd',
+		    url:'https://ajinkya.tech/project/forum/index.php/welcome/commentadd',
 			data: {'lid':listid,
 				   'comment':comment}
 		})

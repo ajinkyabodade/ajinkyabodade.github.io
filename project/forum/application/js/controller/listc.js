@@ -5,13 +5,13 @@ app.config(function($routeProvider) {
     
 	    .when("/viewlistdetail/:lid", {
 	        controller: 'cid',
-	        templateUrl : "https://ajinkya.co/project/forum/application/views/list.php"
+	        templateUrl : "https://ajinkya.tech/project/forum/application/views/list.php"
             })
 
 	  
 	    .otherwise({
 	    	controller: 'listviewCtrl',
-	        templateUrl : "https://ajinkya.co/project/forum/application/views/listview.php"
+	        templateUrl : "https://ajinkya.tech/project/forum/application/views/listview.php"
 		    });
 });
 
@@ -38,7 +38,7 @@ app.controller('listviewCtrl',['$scope','listviewService',function($scope,listvi
  				if(response.data.status == 100)
 
 				{
-					var landingUrl = "https://ajinkya.co/project/forum/index.php/welcome/logout";
+					var landingUrl = "https://ajinkya.tech/project/forum/index.php/welcome/logout";
 					$window.location.href = landingUrl;
 				}
 
@@ -75,7 +75,7 @@ app.controller('listviewCtrl',['$scope','listviewService',function($scope,listvi
 				if(response.data.status == 100)
 
 				{
-					var landingUrl = "https://ajinkya.co/project/forum/index.php/welcome/logout";
+					var landingUrl = "https://ajinkya.tech/project/forum/index.php/welcome/logout";
 					window.location.href = landingUrl;
 				}
 
@@ -127,7 +127,7 @@ app.controller('cid',['$scope','$routeParams', 'listviewdetailService',function(
 				if(response.data.status == 100)
 
 				{
-					var landingUrl = "https://ajinkya.co/project/forum/index.php/welcome/logout";
+					var landingUrl = "https://ajinkya.tech/project/forum/index.php/welcome/logout";
 					window.location.href = landingUrl;
 				}
 
