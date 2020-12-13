@@ -1538,7 +1538,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#1ca9c9"
     },
     "shape": {
       "type": "circle",
@@ -1578,7 +1578,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#1ca9c9",
       "opacity": 0.4,
       "width": 1
     },
