@@ -893,7 +893,7 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jp
 .tilesWrap li p {
   font-size: 18px;
   line-height: 23px;
-  color: #b7b7b7;
+  color: #e4dddd;
   margin-top: 5px;
 }
 .tilesWrap li button {
@@ -908,6 +908,7 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jp
   opacity: 0;
   cursor: pointer;
   overflow: hidden;
+  z-index: 10;
 }
 .tilesWrap li button:before {
   content: '';
