@@ -622,8 +622,8 @@ margin:0;
 }
 .list-inline > li {
 display: inline-block;
-padding-right: 10px;
-padding-left: 10px;
+padding-right: 6px;
+padding-left: 6px;
 }
 .list-inline > li a i{
  vertical-align:middle;

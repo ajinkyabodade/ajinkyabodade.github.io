@@ -63,7 +63,6 @@
   imgHover();
   lightboxPhoto();
   winHeight();
-  barScroll();
   //============================ nav container sticky =========================================
 
   $(".navbar").sticky({ topSpacing: 0 });
@@ -149,6 +148,19 @@ function winHeight() {
   $(".header").height(wHeight);
 }
 
+var barInitiated = false;
+var aboutScroll = document.querySelector("#aboutMore").getBoundingClientRect().top;
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if(document.documentElement.scrollTop > aboutScroll- (($(window).height <= 640 ? 50 : 600)) && !barInitiated){
+    barInitiated = true;
+    barScroll();
+  }
+}
+
+
 function barScroll() {
   setTimeout(function () {
     $(".progress-bar").each(function () {
@@ -167,7 +179,7 @@ function barScroll() {
         }
 
         pe.text(current_perc + "%");
-      }, 90);
+      }, 45);
     });
-  }, 300);
+  }, 0);
 }
