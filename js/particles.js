@@ -1528,7 +1528,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
   //   if(xhr.readyState == 4){
   //     if(xhr.status == 200){
   //       var params = JSON.parse(data.currentTarget.response);
-        window.particlesJS(tag_id, {
+window.particlesJS(tag_id, {
   "particles": {
     "number": {
       "value": 80,
@@ -1569,7 +1569,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
       "value": 5,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 40,
         "size_min": 0.1,
         "sync": false
@@ -1584,13 +1584,13 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
+      "speed": 3,
+      "direction": "bottom",
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
