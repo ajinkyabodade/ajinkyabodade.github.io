@@ -1506,6 +1506,12 @@ body.modal-open {
   .main-timeline-2 .title {
     font-size: 18px;
   }
+  .gitStatusContainer{
+    flex-flow: column;
+  }
+  .gitContainer2 {
+    padding-top: 80px;
+  }
 }
 
 .gitStatusContainer{
@@ -1515,6 +1521,10 @@ body.modal-open {
   padding-bottom: 112px;
 }
 
-.gitContainer{
+.gitContainer1{
+  max-width: 450px;
+}
+
+.gitContainer2 {
   max-width: 450px;
 }
