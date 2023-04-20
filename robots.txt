@@ -1,4 +1,4 @@
-Sitemap: https://ajinkyabodade.github.io/portfolio/sitemap.xml
+Sitemap: https://ajinkyabodade.github.io/sitemap.xml
 
 User-agent: *
 Disallow: /contact.php
