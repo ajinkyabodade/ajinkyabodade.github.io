@@ -6,7 +6,8 @@
 }
 
 .proj-container {
-	width: 24%;
+	width: 100%;
+	max-width: 408px;
 	height: 230px;
 	background-color: #000;
 	margin: 3% 1%;
@@ -68,6 +69,7 @@
 	opacity: 1;
 	transition: all 0.25s linear;
 	box-shadow: -5px 5px 15px #2d2f3a;
+	margin: auto;
 }
 
 #proj1 .proj_desc p {
@@ -118,4 +120,20 @@
 
 #proj1:hover .proj_info {
 	opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+	.projectContainer {
+		gap: 54px;
+	}
+}
+
+@media (max-width: 425px) {
+	#proj1 .proj_title p{
+		font-size: 14px !important;
+	}
+
+	#proj1 .proj_info{
+		width: 110%;
+	}
 }
