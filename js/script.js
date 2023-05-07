@@ -60,7 +60,6 @@
 
   //============================ function =========================================
 
-  imgHover();
   lightboxPhoto();
   winHeight();
   //============================ nav container sticky =========================================
@@ -105,26 +104,6 @@ $(window).scroll(function () {
 });
 //================================ function ========================================
 
-function imgHover() {
-  $(".thumb-img").hover(
-    function () {
-      $(this).find(".link-search, .link-chain").fadeIn();
-      $(".link-search").removeClass("fadeOutLeft").addClass("fadeInLeft");
-      $(".link-chain").removeClass("fadeOutRight").addClass("fadeInRight");
-      $(this).children(".folio-caption").animate({
-        bottom: "0px",
-      });
-    },
-    function () {
-      $(this).find(".link-search, .link-chain").fadeOut();
-      $(".link-search").removeClass("fadeInLeft").addClass("fadeOutLeft");
-      $(".link-chain").removeClass("fadeInRight").addClass("fadeOutRight");
-      $(this).children(".folio-caption").animate({
-        bottom: "-58px",
-      });
-    }
-  );
-}
 
 function lightboxPhoto() {
   $(document).delegate('*[data-toggle="lightbox"]', "click", function (event) {
