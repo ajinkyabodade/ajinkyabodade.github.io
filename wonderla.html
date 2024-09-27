@@ -50,6 +50,7 @@
 
         .content img {
             max-width: 100%;
+            cursor: pointer;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
@@ -87,6 +88,51 @@
         .download-btn:hover {
             background-color: #1565c0;
             transform: translateY(-3px);
+        }
+
+        /* Modal Styling */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-content {
+            margin: 5% auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+            animation: zoom 0.6s;
+        }
+
+        @keyframes zoom {
+            from {transform: scale(0)}
+            to {transform: scale(1)}
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }
 
         /* Animation */
@@ -131,14 +177,59 @@
             </p>
 
             <!-- Image of Free Ticket -->
-            <img src="https://i.ibb.co/P5DVGPD/Free-Ticket.jpg" alt="Free Ticket to Wonderla Bengaluru">
+            <img id="img1" src="https://i.postimg.cc/qzgSqbqd/IMG-20240927-102533.jpg" alt="Free Ticket to Wonderla Bengaluru">
 
             <!-- Image of CRED Offer -->
-            <img src="https://i.ibb.co/SBY22hs/Only-Fridays.jpg" alt="CRED Only Fridays Offer">
+            <img id="img2" src="https://i.postimg.cc/w7t4g14q/Screenshot-2024-09-27-07-16-12-405-com-dreamplug-androidapp.jpg" alt="CRED Only Fridays Offer">
 
             <!-- Download Button -->
             <a class="download-btn" href="https://app.cred.club/spQx/nfizc710" target="_blank">Download CRED Now</a>
         </div>
     </div>
+
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script>
+        // Get the modal and modal image elements
+        var modal = document.getElementById("modal");
+        var modalImg = document.getElementById("modal-img");
+        var closeBtn = document.getElementsByClassName("close")[0];
+
+        // High-resolution images for the modal
+        var highResImages = {
+            img1: "https://i.postimg.cc/qzgSqbqd/IMG-20240927-102533.jpg", // Replace with a higher resolution image if available
+            img2: "https://i.postimg.cc/w7t4g14q/Screenshot-2024-09-27-07-16-12-405-com-dreamplug-androidapp.jpg" // Replace with a higher resolution image if available
+        };
+
+        // Function to open modal with the high-resolution image
+        function openModal(imageId) {
+            modal.style.display = "block";
+            modalImg.src = highResImages[imageId];
+        }
+
+        // Adding click event listeners to images to open the modal
+        document.getElementById("img1").onclick = function() {
+            openModal("img1");
+        }
+        document.getElementById("img2").onclick = function() {
+            openModal("img2");
+        }
+
+        // Close the modal when user clicks on the close button
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Close the modal when user clicks outside the modal image
+        modal.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
